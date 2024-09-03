@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu Portfólio</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="scripts.js" defer></script>
+</head>
+<body>
+    <header>
+        <h1>Meu Portfólio</h1>
+        <nav>
+            <ul>
+                <li><a href="#sobre">Sobre</a></li>
+                <li><a href="#projetos">Projetos</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <section id="sobre">
+        <h2>Sobre Mim</h2>
+        <img src="images/gato.jpg" alt="Gato" class="imagem-sobre">
+        <p>Bem-vindo ao meu portfólio. Sou um desenvolvedor web apaixonado por criar soluções inovadoras.</p>
+    </section>
+
+    <section id="projetos">
+        <h2>Projetos</h2>
+        <div class="projeto" onclick="mostrarDetalhes('projeto1')">
+            <h3>Projeto 1</h3>
+            <p>Descrição breve do projeto 1.</p>
+        </div>
+        <div class="projeto" onclick="mostrarDetalhes('projeto2')">
+            <h3>Projeto 2</h3>
+            <p>Descrição breve do projeto 2.</p>
+        </div>
+    </section>
+
+    <section id="contato">
+        <h2>Contato</h2>
+        <p>Você pode me encontrar nas redes sociais.</p>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Meu Portfólio</p>
+    </footer>
+</body>
+</html>
+
